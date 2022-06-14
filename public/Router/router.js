@@ -9,6 +9,8 @@ import bolivia from '../../src/components/bolivia'
 import peru from '../../src/components/peru'
 import europa from '../../src/components/europa'
 import chile from '../../src/components/chile'
+import AlojamientoBarato from '../../src/components/AlojamientoBarato'
+
 
 Vue.use(VueRouter)
 
@@ -57,6 +59,11 @@ const routes = [
   {
     path: '*',
     component: Notfound,
+  },
+  {
+    path: '/AlojamientoBarato',
+    component: AlojamientoBarato,
+    name: 'AlojamientoBarato'
   },
       
 ]
