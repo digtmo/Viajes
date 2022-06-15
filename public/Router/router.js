@@ -10,6 +10,8 @@ import peru from '../../src/components/peru'
 import europa from '../../src/components/europa'
 import chile from '../../src/components/chile'
 import AlojamientoBarato from '../../src/components/AlojamientoBarato'
+import AtrapadoLaPaz from '../../src/components/AtrapadoLaPaz'
+import SalkantayTrek from '../../src/components/SalkantayTrek'
 
 
 Vue.use(VueRouter)
@@ -29,6 +31,7 @@ const routes = [
   {
     path: '/Misviajes',
     component: Misviajes,
+    name: 'Misviajes',
   },
 
   {
@@ -64,6 +67,16 @@ const routes = [
     path: '/AlojamientoBarato',
     component: AlojamientoBarato,
     name: 'AlojamientoBarato'
+  },
+  {
+    path: '/AtrapadoLaPaz',
+    component: AtrapadoLaPaz,
+    name: 'AtrapadoLaPaz'
+  },
+  {
+    path: '/SalkantayTrek',
+    component: SalkantayTrek,
+    name: 'SalkantayTrek'
   },
       
 ]
